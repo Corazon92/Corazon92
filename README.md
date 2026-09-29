@@ -26,7 +26,7 @@ Cellule pédagogique intégrée : convoyeur, détection et vision, coordonnées 
 
 Passerelle entre applications réseau et régulateur de température industriel, avec acquisition et modification distante de consigne.
 
-### [PSoC Embedded Systems](https://github.com/Corazon92/psoc-embedded-fibonacci) — Embedded / Electronics
+### [PSoC Embedded Systems](https://github.com/Corazon92/psoc-embedded-systems) — Embedded / Electronics
 **C · PSoC · ADC · PWM · UART · Node-RED**
 
 Collection de projets embarqués : UART/Fibonacci, commande moteur V/f, MPPT photovoltaïque et chaîne IoT PSoC → UART/JSON → Node-RED.
