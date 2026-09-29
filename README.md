@@ -16,7 +16,7 @@ Application personnelle de suivi d'entraînement : séances personnalisables, hi
 
 Modélisation d'une base de données de centrale à béton, règles d'intégrité, automatisation SQL et exploitation depuis une supervision industrielle.
 
-### AutoSpé 5 — Industrial Robotic Cell
+### [AutoSpé 5 — Industrial Robotic Cell](https://github.com/Corazon92/industrial-robotic-cell)
 **Siemens · PROFINET · SensoPart · Stäubli · VAL3 · GRAFCET**
 
 Cellule pédagogique intégrée : convoyeur, détection et vision, coordonnées X/Y/angle, automate Siemens puis manipulation par robot Stäubli. Dépôt dédié préparé ; publication en attente de création du repository.
@@ -39,10 +39,10 @@ Projet pluriannuel de robot mobile autonome. Le dépôt distingue explicitement 
 ## Autres projets / Other engineering projects
 
 - [C++ Engineering Projects](https://github.com/Corazon92/cpp-engineering-projects) — UrbanFlow (Dijkstra/Hungarian) + gestion de comptes avec listes chaînées et persistance.
-- **Industrial Automation Projects** — Schneider/Festo, GRAFCET, Structured Text, IHM et maintenance.
-- **3D Inclinometer** — LabVIEW, acquisition analogique, calibration, tangage/roulis et visualisation 3D.
-- **Restaurant Ordering System** — C#, WinForms, produits dynamiques, panier, administration et facturation.
-- **FPGA/VHDL Labs** — Quartus, logique combinatoire/synchrone, simulation et Cyclone II.
+- **[Industrial Automation Projects](https://github.com/Corazon92/industrial-automation-projects)** — Schneider/Festo, GRAFCET, Structured Text, IHM et maintenance.
+- **[3D Inclinometer](https://github.com/Corazon92/3d-inclinometer-labview)** — LabVIEW, acquisition analogique, calibration, tangage/roulis et visualisation 3D.
+- **[Restaurant Ordering System](https://github.com/Corazon92/restaurant-ordering-system)** — C#, WinForms, produits dynamiques, panier, administration et facturation.
+- **[FPGA/VHDL Labs](https://github.com/Corazon92/fpga-vhdl-labs)** — Quartus, logique combinatoire/synchrone, simulation et Cyclone II.
 
 ---
 
