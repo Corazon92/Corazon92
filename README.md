@@ -1,169 +1,69 @@
+# Samy Hammadi
 
+Étudiant ingénieur orienté **Data Engineering**, issu d'un parcours **GEII (Génie Électrique et Informatique Industrielle)**.
 
-Étudiant ingénieur orienté **Data Engineering**, avec un parcours initial en **GEII (Génie Électrique et Informatique Industrielle)**.
+Je construis des projets à l'intersection du **logiciel**, de la **data**, des **systèmes embarqués** et de l'**industrie/robotique**. Cette sélection privilégie les réalisations pour lesquelles je peux documenter précisément l'architecture et mon travail.
 
-Mon parcours m'a amené à travailler sur des projets assez variés : **développement logiciel, bases de données, systèmes embarqués, réseaux industriels, automatisme et robotique**.
+## Projets sélectionnés
 
-Ce GitHub regroupe une sélection des projets les plus représentatifs de ce parcours.
+### [Muscu Tracker](https://github.com/Corazon92/Muscu_app) — Software / Web
+**React · TypeScript · IndexedDB · PWA · Recharts**
 
-## Projets
+Application personnelle mobile-first pour saisir les séances, comparer les performances, calculer volume/1RM/records et suivre la progression. Stockage local, import/export JSON et fonctionnement hors ligne.  
+[Démo](https://muscu-tracker-kappa.vercel.app)
 
-### Muscu Tracker — React / TypeScript
-Application web personnelle de suivi de musculation.
+### [Passerelle Modbus](https://github.com/Corazon92/industrial-modbus-projects) — Réseau / industrie
+**C++ Builder · TCP/IP · Modbus RTU · RS-232 · CRC16**
 
-- React 19 + TypeScript
-- IndexedDB
-- PWA / fonctionnement hors-ligne
-- suivi des séances et performances
-- historique et records personnels
-- graphiques de progression
-- export / import des données
+Deux applications client/serveur et une passerelle vers un régulateur Eurotherm 2216e : acquisition de température, graphique et modification distante de consigne.
 
-→ `Corazon92/Muscu_app`
+### [UrbanFlow](https://github.com/Corazon92/cpp-engineering-projects) — C++ / algorithmique
+**C++ · graphes · Dijkstra · algorithme hongrois**
 
-### Autonomous Robot Car — Raspberry Pi / Robotics
-Projet pluriannuel réalisé en équipe à Télécom Saint-Étienne autour d'un véhicule autonome de service.
+Modélisation d'un réseau de transport depuis des CSV, calcul de trajets selon plusieurs critères et analyse exploitant. Ma contribution principale : Dijkstra, menu exploitant et fonctions d'analyse.
 
-Plateforme actuelle :
+### [PostgreSQL + PcVue](https://github.com/Corazon92/database-sql-projects) — Data / SQL
+**PostgreSQL · PL/pgSQL · vues · fonctions · triggers · PcVue**
 
-- Raspberry Pi
-- LiDAR LD19
-- IMU BMI323
-- moteurs avec encodeurs
-- drivers Cytron
-- châssis 4 roues
+Base de données d'une centrale à béton avec règles d'intégrité et exploitation des données depuis une supervision industrielle.
 
-Le projet évolue progressivement vers la **cartographie, la navigation autonome, la supervision et le suivi de personne**.
+### [Véhicule autonome](https://github.com/Corazon92/autonomous-robot-car) — Robotique embarquée
+**Raspberry Pi · LiDAR LD19 · IMU BMI323 · encodeurs**
 
-→ `Corazon92/autonomous-robot-car`
+Projet pluriannuel en équipe. Les fonctions prévues sont séparées des éléments déjà testés/choisis dans le dépôt.
 
-### Industrial Modbus Gateway
-Projet GEII de passerelle entre un réseau Ethernet et un équipement industriel.
+### [PSoC Embedded Fibonacci](https://github.com/Corazon92/psoc-embedded-fibonacci) — Embarqué
+**C · PSoC 5LP · UART**
 
-Architecture :
+Projet C embarqué avec code source : Fibonacci itératif/récursif, variables statiques, observation de la pile et retargeting de `printf/scanf` vers l'UART.
 
-`Client → TCP/IP → Gateway → Modbus RTU / RS-232 → Eurotherm 2216e`
+## Autres expériences techniques
 
-Travail autour de :
+Au fil de ma formation, j'ai également travaillé sur **robotique Stäubli/Fanuc**, vision industrielle Keyence, automates Siemens/TIA Portal, MQTT, FPGA/VHDL et Linux embarqué. Je distingue volontairement ces expériences des projets publics ci-dessus lorsqu'il ne reste pas assez de code personnel archivé pour constituer un dépôt autonome.
 
-- sockets TCP/IP
-- architecture client/serveur
-- Modbus RTU
-- CRC16
-- RS-232
-- acquisition de température
-- modification distante d'une consigne
+## Technologies utilisées
 
-→ `Corazon92/industrial-modbus-projects`
-
-### PostgreSQL + PcVue
-Projet de base de données appliqué à une centrale à béton.
-
-- PostgreSQL
-- SQL / PL/pgSQL
-- modélisation relationnelle
-- vues
-- fonctions
-- triggers
-- contraintes d'intégrité
-- intégration avec une supervision PcVue
-
-→ `Corazon92/database-sql-projects`
-
-### UrbanFlow — C++ Algorithms
-Projet C++ de modélisation d'un réseau de transport public.
-
-- graphes pondérés
-- matrice d'adjacence enrichie
-- lecture de données CSV
-- algorithme de Dijkstra
-- calcul de différents types d'itinéraires
-- gestion des coupures de lignes
-- analyse de l'affluence
-- algorithme hongrois pour l'affectation de véhicules
-
-Ma contribution principale concernait **Dijkstra, le menu exploitant et les fonctions d'analyse du réseau**.
-
-→ `Corazon92/cpp-engineering-projects`
-
-### PSoC Embedded C
-Projet d'apprentissage du développement embarqué sur **PSoC 5LP**.
-
-- C embarqué
-- Fibonacci itératif et récursif
-- tableaux `uint16`
-- variables `static`
-- pile d'appels
-- UART
-- retargeting de `printf` / `scanf`
-- synchronisation de transmission UART
-
-→ `Corazon92/psoc-embedded-fibonacci`
-
-## Technologies
-
-### Software & Data
-
-`Python` `C` `C++` `JavaScript` `TypeScript` `SQL`
-
-`React` `Node.js` `Express`
-
-`PostgreSQL` `SQL Server` `Power BI`
-
-### Embedded & Robotics
-
-`Raspberry Pi` `PSoC`
-
-`LiDAR` `IMU` `UART` `RS-232`
-
-### Industrial
-
-`Modbus TCP` `Modbus RTU` `MQTT`
-
-`Ignition` `PcVue` `TIA Portal`
-
-### Tools
-
-`Git` `GitHub` `Linux` `Wireshark`
+**Programmation :** C, C++, Python, JavaScript/TypeScript, SQL  
+**Web / software :** React, Node.js, Express  
+**Data :** PostgreSQL, SQL Server, Power BI  
+**Embarqué / industrie :** Raspberry Pi, PSoC, UART, Modbus TCP/RTU, MQTT, PcVue, Ignition, TIA Portal  
+**Outils :** Git/GitHub, Linux, Wireshark
 
 ---
 
 # English
 
-## About me
+Engineering student focused on **Data Engineering**, with a previous **Electrical Engineering and Industrial Computing (GEII)** background.
 
-Engineering student focused on **Data Engineering**, with a previous background in **Electrical Engineering and Industrial Computing (GEII)**.
+My projects span software, data, embedded systems and industrial/robotics applications.
 
-My projects span several areas including **software development, databases, embedded systems, industrial communication and robotics**.
+## Selected projects
 
-This GitHub contains a selection of projects representing that multidisciplinary background.
+- **[Muscu Tracker](https://github.com/Corazon92/Muscu_app)** — React/TypeScript offline-first workout tracking PWA using IndexedDB.
+- **[Industrial Modbus Gateway](https://github.com/Corazon92/industrial-modbus-projects)** — C++ Builder client/server gateway connecting TCP/IP applications to a Modbus RTU temperature controller over RS-232.
+- **[UrbanFlow](https://github.com/Corazon92/cpp-engineering-projects)** — C++ transport-network modeling using Dijkstra and the Hungarian algorithm.
+- **[PostgreSQL + PcVue](https://github.com/Corazon92/database-sql-projects)** — PL/pgSQL database project integrated with industrial supervision.
+- **[Autonomous Vehicle](https://github.com/Corazon92/autonomous-robot-car)** — work-in-progress Raspberry Pi robotics project using LiDAR, IMU and motor encoders.
+- **[PSoC Embedded C](https://github.com/Corazon92/psoc-embedded-fibonacci)** — embedded C and UART project with archived source code.
 
-## Selected Projects
-
-**Muscu Tracker**  
-React/TypeScript workout tracking PWA using IndexedDB, offline storage, workout history and progress visualization.
-
-**Autonomous Robot Car**  
-Multi-year Raspberry Pi robotics project involving LiDAR, IMU, motor encoders and autonomous-navigation development.
-
-**Industrial Modbus Gateway**  
-TCP/IP to Modbus RTU gateway communicating with an industrial temperature controller through RS-232.
-
-**PostgreSQL + PcVue**  
-Relational database project using PostgreSQL, PL/pgSQL, views, functions and triggers with an industrial supervision interface.
-
-**UrbanFlow**  
-C++ public-transport network modeling project using weighted graphs, Dijkstra's shortest-path algorithm and the Hungarian algorithm.
-
-**PSoC Embedded C**  
-Embedded-C project covering iterative/recursive algorithms, static variables, call-stack behavior and UART communication.
-
-## Main Technologies
-
-`Python` `C` `C++` `JavaScript` `TypeScript` `SQL`
-
-`React` `Node.js` `PostgreSQL` `SQL Server`
-
-`Raspberry Pi` `PSoC` `Modbus` `MQTT`
-
-`Git` `Linux`
+I have also worked with Stäubli/Fanuc robotics, Keyence industrial vision, Siemens automation, MQTT, FPGA/VHDL and embedded Linux. These are listed as broader technical experience rather than standalone portfolio projects when sufficient original source material is not available.
