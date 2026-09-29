@@ -1,68 +1,59 @@
 # Samy Hammadi
 
-Étudiant ingénieur orienté **Data Engineering**, issu d'un parcours **GEII (Génie Électrique et Informatique Industrielle)**.
+Étudiant ingénieur avec un parcours initial en **GEII / automatisme / systèmes embarqués**, aujourd'hui orienté **software et data engineering**.
 
-Profil généraliste : **Software · Data · Embedded Systems · Industrial / Robotics**. Les projets ci-dessous sont sélectionnés pour leur contenu technique vérifiable.
+**Software · Data · Embedded Systems · Industrial / Robotics**
 
-## Projets sélectionnés
+## Projets principaux
 
-### [Muscu Tracker](https://github.com/Corazon92/Muscu_app) — Software / Web · [Démo](https://muscu-tracker-kappa.vercel.app)
-**React · TypeScript · IndexedDB · PWA · Recharts**
+### [Muscu Tracker](https://github.com/Corazon92/Muscu_app) — Software / Web
+**React · TypeScript · PWA · IndexedDB**
 
-Application personnelle mobile-first pour saisir les séances, comparer les performances, calculer volume/1RM/records et suivre la progression. Stockage local, import/export JSON et fonctionnement hors ligne.
-
-### [Passerelle Modbus](https://github.com/Corazon92/industrial-modbus-projects) — Réseau / industrie
-**C++ Builder · TCP/IP · Modbus RTU · RS-232 · CRC16**
-
-Deux applications client/serveur et une passerelle vers un régulateur Eurotherm 2216e : acquisition de température, graphique et modification distante de consigne.
-
-### [UrbanFlow](https://github.com/Corazon92/cpp-engineering-projects) — C++ / algorithmique
-**C++ · graphes · Dijkstra · algorithme hongrois**
-
-Modélisation d'un réseau de transport depuis des CSV, calcul de trajets selon plusieurs critères et analyse exploitant. Ma contribution principale : Dijkstra, menu exploitant et fonctions d'analyse.
+Application personnelle de suivi d'entraînement : séances personnalisables, historique, métriques, estimation 1RM, records, import/export et fonctionnement hors ligne.
 
 ### [PostgreSQL + PcVue](https://github.com/Corazon92/database-sql-projects) — Data / SQL
-**PostgreSQL · PL/pgSQL · vues · fonctions · triggers · PcVue**
+**PostgreSQL · PL/pgSQL · vues · triggers · PcVue**
 
-Base de données d'une centrale à béton avec règles d'intégrité et exploitation des données depuis une supervision industrielle.
+Modélisation d'une base de données de centrale à béton, règles d'intégrité, automatisation SQL et exploitation depuis une supervision industrielle.
 
-### [Véhicule autonome](https://github.com/Corazon92/autonomous-robot-car) — Robotique embarquée
-**Raspberry Pi · LiDAR LD19 · IMU BMI323 · encodeurs**
+### AutoSpé 5 — Industrial Robotic Cell
+**Siemens · PROFINET · SensoPart · Stäubli · VAL3 · GRAFCET**
 
-Projet pluriannuel en équipe. Les fonctions prévues sont séparées des éléments déjà testés/choisis dans le dépôt.
+Cellule pédagogique intégrée : convoyeur, détection et vision, coordonnées X/Y/angle, automate Siemens puis manipulation par robot Stäubli. Dépôt dédié préparé ; publication en attente de création du repository.
 
-### [PSoC Embedded Fibonacci](https://github.com/Corazon92/psoc-embedded-fibonacci) — Embarqué
-**C · PSoC 5LP · UART**
+### [Industrial Modbus Gateway](https://github.com/Corazon92/industrial-modbus-projects) — Networking / Industrial Communication
+**TCP/IP · client/server · Modbus RTU · RS-232 · CRC16**
 
-Projet C embarqué avec code source : Fibonacci itératif/récursif, variables statiques, observation de la pile et retargeting de `printf/scanf` vers l'UART.
+Passerelle entre applications réseau et régulateur de température industriel, avec acquisition et modification distante de consigne.
 
-## Autres expériences techniques
+### [PSoC Embedded Systems](https://github.com/Corazon92/psoc-embedded-fibonacci) — Embedded / Electronics
+**C · PSoC · ADC · PWM · UART · Node-RED**
 
-Au fil de ma formation, j'ai également travaillé sur **robotique Stäubli/Fanuc**, vision industrielle Keyence, automates Siemens/TIA Portal, MQTT, FPGA/VHDL et Linux embarqué. Je distingue volontairement ces expériences des projets publics ci-dessus lorsqu'il ne reste pas assez de code personnel archivé pour constituer un dépôt autonome.
+Collection de projets embarqués : UART/Fibonacci, commande moteur V/f, MPPT photovoltaïque et chaîne IoT PSoC → UART/JSON → Node-RED.
 
-## Technologies utilisées
+### [Autonomous Robot Car](https://github.com/Corazon92/autonomous-robot-car) — Autonomous Robotics
+**Raspberry Pi · LiDAR · IMU · encodeurs · motorisation**
 
-**Programmation :** C, C++, Python, JavaScript/TypeScript, SQL  
-**Web / software :** React, Node.js, Express  
-**Data :** PostgreSQL, SQL Server, Power BI  
-**Embarqué / industrie :** Raspberry Pi, PSoC, UART, Modbus TCP/RTU, MQTT, PcVue, Ignition, TIA Portal  
-**Outils :** Git/GitHub, Linux, Wireshark
+Projet pluriannuel de robot mobile autonome. Le dépôt distingue explicitement les éléments réalisés, en développement et prévus.
+
+## Autres projets / Other engineering projects
+
+- [C++ Engineering Projects](https://github.com/Corazon92/cpp-engineering-projects) — UrbanFlow (Dijkstra/Hungarian) + gestion de comptes avec listes chaînées et persistance.
+- **Industrial Automation Projects** — Schneider/Festo, GRAFCET, Structured Text, IHM et maintenance.
+- **3D Inclinometer** — LabVIEW, acquisition analogique, calibration, tangage/roulis et visualisation 3D.
+- **Restaurant Ordering System** — C#, WinForms, produits dynamiques, panier, administration et facturation.
+- **FPGA/VHDL Labs** — Quartus, logique combinatoire/synchrone, simulation et Cyclone II.
 
 ---
 
 # English
 
-Engineering student focused on **Data Engineering**, with a previous **Electrical Engineering and Industrial Computing (GEII)** background.
+Engineering student with a background in **electrical engineering, automation and embedded systems**, now focusing on **software and data engineering**.
 
-Generalist profile: **Software · Data · Embedded Systems · Industrial / Robotics**.
+My portfolio spans **Software · Data · Embedded Systems · Industrial / Robotics**.
 
-## Selected projects
+Main work includes a React/TypeScript workout PWA, PostgreSQL/PL/pgSQL with industrial supervision, an industrial robotic cell using Siemens/PROFINET/SensoPart/Stäubli, a TCP/IP ↔ Modbus RTU gateway, a PSoC embedded-systems collection, and an evolving Raspberry Pi autonomous-robot project.
 
-- **[Muscu Tracker](https://github.com/Corazon92/Muscu_app)** — React/TypeScript offline-first workout tracking PWA using IndexedDB.
-- **[Industrial Modbus Gateway](https://github.com/Corazon92/industrial-modbus-projects)** — C++ Builder client/server gateway connecting TCP/IP applications to a Modbus RTU temperature controller over RS-232.
-- **[UrbanFlow](https://github.com/Corazon92/cpp-engineering-projects)** — C++ transport-network modeling using Dijkstra and the Hungarian algorithm.
-- **[PostgreSQL + PcVue](https://github.com/Corazon92/database-sql-projects)** — PL/pgSQL database project integrated with industrial supervision.
-- **[Autonomous Vehicle](https://github.com/Corazon92/autonomous-robot-car)** — work-in-progress Raspberry Pi robotics project using LiDAR, IMU and motor encoders.
-- **[PSoC Embedded C](https://github.com/Corazon92/psoc-embedded-fibonacci)** — embedded C and UART project with archived source code.
+Additional projects cover C++ algorithms and dynamic data structures, Schneider/Festo automation, LabVIEW instrumentation, C# WinForms and FPGA/VHDL.
 
-I have also worked with Stäubli/Fanuc robotics, Keyence industrial vision, Siemens automation, MQTT, FPGA/VHDL and embedded Linux. These are listed as broader technical experience rather than standalone portfolio projects when sufficient original source material is not available.
+Historical academic code is kept authentic whenever possible. Finished work, educational labs and work in progress are explicitly distinguished, and machine-specific or sensitive information is removed before publication.
