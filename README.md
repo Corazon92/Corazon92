@@ -1,4 +1,3 @@
-# Samy Hammadi
 
 Étudiant ingénieur avec un parcours initial en **GEII / automatisme / systèmes embarqués**, aujourd'hui orienté **software et data engineering**.
 
