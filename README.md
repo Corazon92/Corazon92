@@ -2,15 +2,14 @@
 
 Étudiant ingénieur orienté **Data Engineering**, issu d'un parcours **GEII (Génie Électrique et Informatique Industrielle)**.
 
-Je construis des projets à l'intersection du **logiciel**, de la **data**, des **systèmes embarqués** et de l'**industrie/robotique**. Cette sélection privilégie les réalisations pour lesquelles je peux documenter précisément l'architecture et mon travail.
+Profil généraliste : **Software · Data · Embedded Systems · Industrial / Robotics**. Les projets ci-dessous sont sélectionnés pour leur contenu technique vérifiable.
 
 ## Projets sélectionnés
 
-### [Muscu Tracker](https://github.com/Corazon92/Muscu_app) — Software / Web
+### [Muscu Tracker](https://github.com/Corazon92/Muscu_app) — Software / Web · [Démo](https://muscu-tracker-kappa.vercel.app)
 **React · TypeScript · IndexedDB · PWA · Recharts**
 
-Application personnelle mobile-first pour saisir les séances, comparer les performances, calculer volume/1RM/records et suivre la progression. Stockage local, import/export JSON et fonctionnement hors ligne.  
-[Démo](https://muscu-tracker-kappa.vercel.app)
+Application personnelle mobile-first pour saisir les séances, comparer les performances, calculer volume/1RM/records et suivre la progression. Stockage local, import/export JSON et fonctionnement hors ligne.
 
 ### [Passerelle Modbus](https://github.com/Corazon92/industrial-modbus-projects) — Réseau / industrie
 **C++ Builder · TCP/IP · Modbus RTU · RS-232 · CRC16**
@@ -55,7 +54,7 @@ Au fil de ma formation, j'ai également travaillé sur **robotique Stäubli/Fanu
 
 Engineering student focused on **Data Engineering**, with a previous **Electrical Engineering and Industrial Computing (GEII)** background.
 
-My projects span software, data, embedded systems and industrial/robotics applications.
+Generalist profile: **Software · Data · Embedded Systems · Industrial / Robotics**.
 
 ## Selected projects
 
