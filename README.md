@@ -19,7 +19,7 @@ Modélisation d'une base de données de centrale à béton, règles d'intégrit�
 ### [AutoSpé 5 — Industrial Robotic Cell](https://github.com/Corazon92/industrial-robotic-cell)
 **Siemens · PROFINET · SensoPart · Stäubli · VAL3 · GRAFCET**
 
-Cellule pédagogique intégrée : convoyeur, détection et vision, coordonnées X/Y/angle, automate Siemens puis manipulation par robot Stäubli. Dépôt dédié préparé ; publication en attente de création du repository.
+Cellule pédagogique intégrée : convoyeur, détection et vision, coordonnées X/Y/angle, automate Siemens puis manipulation par robot Stäubli. Le dépôt documente clairement les éléments préconfigurés et le travail réalisé pendant le projet.
 
 ### [Industrial Modbus Gateway](https://github.com/Corazon92/industrial-modbus-projects) — Networking / Industrial Communication
 **TCP/IP · client/server · Modbus RTU · RS-232 · CRC16**
