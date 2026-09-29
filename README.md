@@ -37,7 +37,8 @@ Projet pluriannuel de robot mobile autonome. Le dépôt distingue explicitement 
 
 ## Autres projets / Other engineering projects
 
-- [C++ Engineering Projects](https://github.com/Corazon92/cpp-engineering-projects) — UrbanFlow (Dijkstra/Hungarian) + gestion de comptes avec listes chaînées et persistance.
+- [C++ Engineering Projects](https://github.com/Corazon92/cpp-engineering-projects) — UrbanFlow (sources restaurées, Dijkstra/Hungarian) + gestion de comptes avec listes chaînées et persistance.
+- **[Power BI Data Analysis](https://github.com/Corazon92/powerbi-data-analysis)** — rapports `.pbix`, modélisation, maintenance, aide à la décision et analyse commerciale.
 - **[Industrial Automation Projects](https://github.com/Corazon92/industrial-automation-projects)** — Schneider/Festo, GRAFCET, Structured Text, IHM et maintenance.
 - **[3D Inclinometer](https://github.com/Corazon92/3d-inclinometer-labview)** — LabVIEW, acquisition analogique, calibration, tangage/roulis et visualisation 3D.
 - **[Restaurant Ordering System](https://github.com/Corazon92/restaurant-ordering-system)** — C#, WinForms, produits dynamiques, panier, administration et facturation.
@@ -53,6 +54,6 @@ My portfolio spans **Software · Data · Embedded Systems · Industrial / Roboti
 
 Main work includes a React/TypeScript workout PWA, PostgreSQL/PL/pgSQL with industrial supervision, an industrial robotic cell using Siemens/PROFINET/SensoPart/Stäubli, a TCP/IP ↔ Modbus RTU gateway, a PSoC embedded-systems collection, and an evolving Raspberry Pi autonomous-robot project.
 
-Additional projects cover C++ algorithms and dynamic data structures, Schneider/Festo automation, LabVIEW instrumentation, C# WinForms and FPGA/VHDL.
+Additional projects cover C++ algorithms and dynamic data structures, Power BI dashboards, Schneider/Festo automation, LabVIEW instrumentation, C# WinForms and FPGA/VHDL.
 
 Historical academic code is kept authentic whenever possible. Finished work, educational labs and work in progress are explicitly distinguished, and machine-specific or sensitive information is removed before publication.
